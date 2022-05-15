@@ -13,7 +13,7 @@ const Navbar = () => {
                 <div className="nav-links-container">
                     <Link className="nav-link" to="/schemes" >Government Schemes</Link>
                     <Link className="nav-link" to="/organicFarming" >Organic Farming</Link>
-                    <Link className="nav-link" to="/learn" >Learn</Link>
+                    <Link className="nav-link" to="/machines" >Farm Machinery</Link>
                 </div>
             </div>
             <Outlet/>

@@ -14,6 +14,7 @@ const Footer = () => {
           <div className="footer-right-container">
             <Link to="/schemes">Government Schemes</Link>
             <Link to="/organicFarming" >Organic Farming</Link>
+            <Link to="/machines" >Farm Machinery</Link>
           </div>
         </div>
       </Fragment>

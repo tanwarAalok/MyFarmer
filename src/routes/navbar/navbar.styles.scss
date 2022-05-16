@@ -1,5 +1,5 @@
 .navigation {
-  height: 70px;
+  height: 7rem;
   width: 100%;
   display: flex;
   justify-content: space-between;
@@ -9,8 +9,8 @@
 
   .logo-container {
     height: 100%;
-    width: 260px;
-    padding: 10px;
+    width: 26rem;
+    padding: 1rem;
 
     .logo{
         width: 100%;
@@ -29,14 +29,21 @@
     align-items: center;
     justify-content: flex-end;
 
+    .menu{
+      visibility: hidden;
+    }
+
     .nav-link {
-      margin: 10px 15px;
+      margin: 1rem 1.5rem;
       cursor: pointer;
+      font-size: 1.5rem;
+
+
 
 
       &:hover{
-        padding: 2px;
-        border-bottom: 2px solid #226034;
+        padding: .2rem;
+        border-bottom: .2rem solid #226034;
         opacity: 0.9;
         color: #226034;
 
@@ -44,3 +51,16 @@
     }
   }
 }
+
+@media(max-width: 768px){
+  .nav-link{
+    display: none;
+  }
+
+  .menu{
+    visibility: visible;
+    width: 50px;
+    height: 50px;
+  }
+}
+

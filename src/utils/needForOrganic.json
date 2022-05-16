@@ -1,0 +1,32 @@
+[
+    {
+        "id": 1,
+        "title": "1. Organic Food Industry is Growing Fast and Guarantees High Profitability",
+        "desc": "Current market trends, according to natural marketing institute reveals that organically produced products are becoming widely accepted throughout the world. Again, the institute underscores that over the past few years, the annual sales of organic products have increased three-fold with the increased establishment of natural food stores selling varieties of organic products."
+    },
+    {
+        "id": 2,
+        "title": "2. Environmental Sustainability and Food Security",
+        "desc": "Attaining a friendly and green environment has always been a great concern worldwide, and research discloses that organic farming can partly offer a solution. Long term studies about organic agricultural practice reveal it can provide an impressive mechanism for promoting ecological harmony, biodiversity, and biological cycles, which are vital for environmental sustainability.<br></br>The definitive objectives of organic farming are founded on soil management and conservation, promoting nutrient cycle, ecological balance and conserving biodiversity. On this basis, the practices marvelously aid in building the capacity to mitigate the impacts of global climate change and contributing to environmental preservation."
+    },
+    {
+        "id": 3,
+        "title": "3. Improvement of Human Health",
+        "desc": "Organic produce offers the safest products for human consumption than any other available food products. They contain lower levels of chemicals and do not contain modified ingredients compared to conventional agricultural produce."
+    },
+    {
+        "id": 4,
+        "title": "4. Rich in Nutrients",
+        "desc": "The nutritional value of a food item is determined by its mineral and vitamin content. Compared to conventionally grown food, food grown organically are rich in nutrients, such as Vitamin C, iron, magnesium, and phosphorus, with less exposure to nitrates and pesticide residues in organically grown fruits, vegetables, and grains. Organic farming enhances the nutrients of the soil, which is passed on to the plants and animals."
+    },
+    {
+        "id": 5,
+        "title": "5. Rich Taste of Organic Produce",
+        "desc": "The quality of food is also determined by its taste. Organic food often tastes better than other food. The sugar content in organically grown fruits and vegetables provides them with extra taste. The quality of fruits and vegetables can be measured using Brix analysis, which is traditionally used in the wine, sugar, carbonated beverage, fruit juice, maple syrup and honey industries. Degrees Brix (symbol °Bx) measure the sugar content of an aqueous solution."
+    },
+    {
+        "id": 6,
+        "title": "6. Analytical Authentication Assures Quality Product",
+        "desc": "Consumers’ interest in organic food is increasing as a product must undergo quality checks, and the creation process is rigorously investigated to qualify as organic food. Food products have been subdivided into two groups: foods of plant origin (crops) and foods of animal origin (meat, milk and dairy products, eggs and fish).<br></br>For each food category, the most suitable biomarkers are presented, and their potential for authentication is discussed. The same rule applies to international markets. It assures consumers that they are getting real organic foods."
+    }
+]

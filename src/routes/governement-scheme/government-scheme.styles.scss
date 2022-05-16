@@ -1,23 +1,36 @@
 .gov-container{
 
+    button{
+        padding: 0.6rem 1rem;
+        font-size: 1.5rem;
+        cursor: pointer;
+    }
+
     width: 70%;
-    margin: 50px 15%;
+    margin: 5rem 15%;
 
    
    li{
-       font-size: 28px;
-       margin: 30px;
+       font-size: 2.8rem;
+       margin: 3rem;
    }
     
     .title{
         font-weight: bold;
-        font-size: 32px;
-        margin-bottom: 20px;
+        font-size: 3.2rem;
+        margin-bottom: 2rem;
     }
 
     .description{
-        font-size: 18px;
-        letter-spacing: 2px;
-        line-height: 30px;
+        font-size: 1.8rem;
+        letter-spacing: .2rem;
+        line-height: 3rem;
     }
+}
+
+@media(max-width: 768px){
+  .gov-container{
+      width: 90%;
+      margin: 5rem 5%;
+  }
 }

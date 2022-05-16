@@ -2,6 +2,7 @@
     background-color: #FCF9EE;
     width: 100%;
     height: 100vh;
+    max-height: 710px;
     display: flex;
 
     .text-container{
@@ -13,14 +14,15 @@
         justify-content: center;
 
         h1{
-            font-size: 56px;
-            padding-left: 50px;
-            margin-bottom: 5px;
+            font-size: 5.6rem;
+            padding-left: 5rem;
+            margin-bottom: .5rem;
+            
         }
         h2{
-            font-size: 46px;
+            font-size: 4.6rem;
             opacity: 0.9;
-            padding-left: 100px;
+            padding-left: 10rem;
             color: #226034;
         }
 
@@ -35,8 +37,32 @@
             width: 100%;
             height: 100%;
             background-image: url('../../assets/front-page-img.jpg');
-            background-size: cover;
+            background-size: auto;
             background-repeat: no-repeat;
         }
     }
+}
+
+@media(max-width: 768px){
+    .front-page-container{
+        align-items: center;
+        justify-content: center;
+    }
+  .text-container{
+      display: none;
+      width: 0px;
+      height: 0px;
+
+      h1{
+        font-size: 1rem;
+        position: relative;
+      }
+
+  }
+  .img-container{
+      width: 100%;
+      padding-left: 0px;
+  }
+
+  
 }

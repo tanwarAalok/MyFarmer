@@ -1,22 +1,29 @@
 .machine-main-container{
     width: 80%;
-    margin: 50px 10%;
+    margin: 5rem 10%;
 
     li{
-        margin: 30px;
+        margin: 3rem;
         display: flex;
         align-items: center;
     }
 
     p{
-        font-size: 16px;
-        letter-spacing: 2px;
+        font-size: 1.6rem;
+        letter-spacing: .2rem;
     }
 
     span{
-        font-size: 28px;
+        font-size: 2rem;
     }
 
 
+}
+
+@media(max-width: 768px){
+  .machine-main-container{
+      width: 90%;
+      margin: 5rem 5%;
+  }
 }
 

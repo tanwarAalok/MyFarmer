@@ -1,7 +1,7 @@
 .organic-page-container{
     background-color: #2f3c2b;
     width: 100%;
-    min-height: 100vh;
+    min-height: 71rem;
     color: white;
 
     display: flex;
@@ -12,31 +12,31 @@
     
 
     h1{
-        font-size: 48px;
-        margin: 50px 0;
+        font-size: 4.8rem;
+        margin: 5rem 0;
     }
 
     .subheading{
         width: 80%;
-        padding: 0 10%;
-        margin-bottom: 50px;
+        padding: 0 0.16rem;
+        margin-bottom: 5rem;
 
         p{
             text-align: center;
-            font-size: 20px;
-            letter-spacing: 2px;
+            font-size: 2rem;
+            letter-spacing: .2rem;
         }
     }
 
     .button{
         background-color: #dacda4;
         color: #2f3c2b;
-        padding: 10px 15px;
-        font-size: 16px;
+        padding: 1rem 1.5rem;
+        font-size: 1.6rem;
         font-weight: bold;
         cursor: pointer;
-        border-radius: 2px;
-        margin-bottom: 20px;
+        border-radius: .2rem;
+        margin-bottom: 2rem;
 
         &:hover{
             opacity: 0.9;

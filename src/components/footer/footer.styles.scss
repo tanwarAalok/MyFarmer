@@ -1,5 +1,5 @@
 .footer-main-container {
-    height: 200px;
+    height: 20rem;
     width: 100%;
     background-color: #222222;
     display: flex;
@@ -40,12 +40,12 @@
         list-style: none;
         
         a{
-            margin: 10px;
+            margin: 1rem;
             font-size: bold;
             cursor: pointer;
             text-transform: uppercase;
-            border-bottom: 1.5px solid white;
-            padding-bottom: 5px;
+            border-bottom: .15rem solid white;
+            padding-bottom: .5rem;
             color: white;
 
 

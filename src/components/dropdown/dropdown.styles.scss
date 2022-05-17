@@ -1,0 +1,17 @@
+.dropdown{
+    position: absolute;
+    top: 7rem;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #2f3c2b;
+    height: 10rem;
+    color: white;
+    flex-direction: column;
+
+    .nav-link{
+        color: white;
+        font-size: 1.5rem;
+    }
+}

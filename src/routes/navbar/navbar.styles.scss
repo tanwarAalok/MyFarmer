@@ -53,14 +53,21 @@
 }
 
 @media(max-width: 768px){
-  .nav-link{
-    display: none;
-  }
+  .navigation{
+    .nav-links-container{
 
-  .menu{
-    visibility: visible;
-    width: 50px;
-    height: 50px;
+      .nav-link{
+        display: none;
+      }
+
+      .menu{
+        visibility: visible;
+        width: 4rem;
+        height: 4rem;
+        cursor: pointer;
+        margin-right: 2rem;
+      }
+    }
   }
 }
 

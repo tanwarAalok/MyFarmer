@@ -1,10 +1,13 @@
 import { Outlet, Link } from "react-router-dom";
 import { Fragment } from "react";
 import './navbar.styles.scss';
+import DropDown from "../../components/dropdown/dropdown.component";
+import { useState } from "react";
 
 
 
 const Navbar = () => {
+  const [toggle, setToggle] = useState(false);
     return (
       <Fragment>
         <div className="navigation">
@@ -23,6 +26,7 @@ const Navbar = () => {
               Farm Machinery
             </Link>
             <svg
+              onClick={() => setToggle(!toggle)}
                 className="menu"
               stroke="currentColor"
               fill="currentColor"
@@ -36,6 +40,7 @@ const Navbar = () => {
             </svg>
           </div>
         </div>
+        {toggle ? <DropDown/> : ''}
         <Outlet />
       </Fragment>
     );

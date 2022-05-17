@@ -1,5 +1,5 @@
 .holder{
-    width: 100%;
+    width: 100vw;
 
     li{
         list-style: none;
@@ -67,7 +67,11 @@
 
 @media(max-width: 768px){
   .holder{
-      width: 90%;
-      margin: 5rem 5%;
+      .need-for-organic{
+      padding: 5rem 1rem;
+    }
+    .start-farming-container{
+        padding: 5rem 1rem;
+    }
   }
 }
